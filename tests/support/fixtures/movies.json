@@ -1,0 +1,98 @@
+{
+  "top_gun_maverick": {
+    "title": "Top Gun: Maverick",
+    "overview": "Mais de 30 anos após se formar na Top Gun, Maverick retorna para treinar uma nova geração de pilotos de elite para uma missão de alto risco.",
+    "company": "Paramount Pictures",
+    "release_year": 2022,
+    "featured": false,
+    "cover": "/images/top-gun-maverick.jpg"
+  },
+  "create": {
+    "title": "Top Gun",
+    "overview": "O jovem piloto Maverick compete para se destacar na prestigiada escola de aviação Top Gun enquanto enfrenta desafios pessoais e profissionais.",
+    "company": "Paramount Pictures",
+    "release_year": 1986,
+    "featured": false,
+    "cover": "/images/top-gun.jpg"
+  },
+  "mission_impossible": {
+    "title": "Mission: Impossible",
+    "overview": "O agente Ethan Hunt é acusado injustamente de traição e precisa descobrir o verdadeiro responsável por uma operação fracassada.",
+    "company": "Paramount Pictures",
+    "release_year": 1996,
+    "featured": false,
+    "cover": "/images/mission-impossible.jpg"
+  },
+  "mission_impossible_fallout": {
+    "title": "Mission: Impossible - Fallout",
+    "overview": "Ethan Hunt e sua equipe enfrentam uma corrida contra o tempo para impedir uma ameaça nuclear global.",
+    "company": "Paramount Pictures",
+    "release_year": 2018,
+    "featured": false,
+    "cover": "/images/mission-impossible-fallout.jpg"
+  },
+  "jerry_maguire": {
+    "title": "Jerry Maguire",
+    "overview": "Após uma crise de consciência, um agente esportivo perde quase todos os seus clientes e tenta reconstruir sua carreira e sua vida.",
+    "company": "TriStar Pictures",
+    "release_year": 1996,
+    "featured": false,
+    "cover": "/images/jerry-maguire.jpg"
+  },
+  "rain_man": {
+    "title": "Rain Man",
+    "overview": "Um vendedor egoísta descobre que seu irmão autista herdou a fortuna do pai e embarca em uma jornada transformadora ao seu lado.",
+    "company": "United Artists",
+    "release_year": 1988,
+    "featured": false,
+    "cover": "/images/rain-man.jpg"
+  },
+  "the_last_samurai": {
+    "title": "The Last Samurai",
+    "overview": "Um oficial americano viaja ao Japão e acaba adotando os costumes dos samurais durante um período de grandes mudanças no país.",
+    "company": "Warner Bros. Pictures",
+    "release_year": 2003,
+    "featured": false,
+    "cover": "/images/the-last-samurai.jpg"
+  },
+  "edge_of_tomorrow": {
+    "title": "Edge of Tomorrow",
+    "overview": "Um soldado preso em um ciclo temporal revive repetidamente a mesma batalha contra invasores alienígenas.",
+    "company": "Warner Bros. Pictures",
+    "release_year": 2014,
+    "featured": false,
+    "cover": "/images/edge-of-tomorrow.jpg"
+  },
+  "minority_report": {
+    "title": "Minority Report",
+    "overview": "Em um futuro onde crimes são previstos antes de acontecer, um policial torna-se o principal suspeito de um assassinato futuro.",
+    "company": "20th Century Fox",
+    "release_year": 2002,
+    "featured": false,
+    "cover": "/images/minority-report.jpg"
+  },
+  "collateral": {
+    "title": "Collateral",
+    "overview": "Um motorista de táxi é forçado a transportar um assassino profissional durante uma noite de crimes em Los Angeles.",
+    "company": "DreamWorks Pictures",
+    "release_year": 2004,
+    "featured": false,
+    "cover": "/images/collateral.jpg"
+  },
+  "a_few_good_men": {
+    "title": "A Few Good Men",
+    "overview": "Um advogado militar investiga um caso envolvendo dois fuzileiros acusados de homicídio dentro das forças armadas.",
+    "company": "Columbia Pictures",
+    "release_year": 1992,
+    "featured": false,
+    "cover": "/images/a-few-good-men.jpg"
+  },
+  "interview_with_the_vampire": {
+    "title": "Interview with the Vampire",
+    "overview": "Um vampiro narra sua longa e complexa existência, marcada por relacionamentos intensos e dilemas morais.",
+    "company": "Warner Bros. Pictures",
+    "release_year": 1994,
+    "featured": false,
+    "cover": "/images/interview-with-the-vampire.jpg"
+  }
+}
