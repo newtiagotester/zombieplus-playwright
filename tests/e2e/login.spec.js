@@ -3,7 +3,7 @@ const { test, expect } = require('../support');
 test('should log in as administrator', async ({ page }) => {
     await page.login.visit();
     await page.login.submit('admin@zombieplus.com', 'pwd123');
-    await page.movies.isLoggedIn();
+    await page.login.isLoggedIn('Admin');
 })
 
 test('should not log in with incorrect password', async ({ page }) => {
