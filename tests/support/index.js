@@ -1,10 +1,10 @@
 const { test: base, expect } = require('@playwright/test');
 
-
-const { Leads } = require('../actions/Leads');
-import { Login } from '../actions/Login';
-import { Movies } from '../actions/Movies';
-import { Toast } from '../actions/Components';
+const { API } = require('./api');
+const { Leads } = require('./actions/Leads');
+import { Login } from './actions/Login';
+import { Movies } from './actions/Movies';
+import { Toast } from './actions/Components';
 
 const test = base.extend({
     page: async ({ page }, use) => {
@@ -18,7 +18,13 @@ const test = base.extend({
 
         await use(context);
 
+    },
+
+    request: async ({ request }, use) => {
+       const context = request;
+       context['api'] = new API(request);
+       await use(context);
     }
-})
+});
 
 export { test, expect };

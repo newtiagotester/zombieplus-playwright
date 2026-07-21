@@ -6,17 +6,29 @@ const { test } = require('../support');
 
 const { executeSQL } = require('../support/database');
 
+test.beforeAll(async () => {
+    await executeSQL('DELETE FROM movies')
+});
+
 
 test('should register a new movie', async ({ page }) => {
-
     const movie = data.create;
 
-    await executeSQL(`DELETE FROM movies WHERE title = '${movie.title}'`);
-
-    
     await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin');
     await page.movies.create(movie);
     await page.toast.containText('Cadastro realizado com sucesso!');
+
+})
+
+
+test('should not register when the title is duplicated', async ({ page, request }) => {
+    const movie = data.duplicate;
+
+    await request.api.setToken();
+
+    // await page.login.do('admin@zombieplus.com', 'pwd123', 'Admin')
+    // await page.movies.create(movie);
+    // await page.toast.containText('Este conteúdo já encontra-se cadastrado no catálogo');
 
 })
 
